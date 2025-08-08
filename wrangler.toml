@@ -1,0 +1,13 @@
+name = "zurg-webdav-proxy"
+account_id = "0a15c5f9d39350baa992ff9f48efc1c8"
+main = "index.js"
+compatibility_date = "2024-07-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "ZURG_PROXY_CONFIG"
+id = "9110b8bb50764f96a84d09a6f06ff52b"
+
+[[routes]]
+pattern = "zurgproxy.andrewe.dev/*"
+zone_id = "dfd8082b699affc3249a9ec68917aeeb"
